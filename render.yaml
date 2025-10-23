@@ -1,0 +1,5 @@
+static_sites:
+  - name: portfolio
+    branch: main
+    buildCommand: "npm ci && npm run render-build"
+    publishPath: "dist"
